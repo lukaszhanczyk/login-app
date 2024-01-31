@@ -48,7 +48,7 @@ services:
     container_name: db
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: nbp_app_db
+      MYSQL_DATABASE: login_app_db
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
     ports:
